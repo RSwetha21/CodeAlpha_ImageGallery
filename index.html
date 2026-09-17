@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="LUMINA - A modern and elegant travel photography gallery.">
+
+    <title>SWETHARAMESH | Travel Image Gallery</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                SWETHARAMESH<span>.</span>
+            </a>
+
+            <nav class="navigation">
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+            </nav>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    TRAVEL • MOMENTS • MEMORIES
+                </p>
+
+                <h1>
+                    Collect moments,<br>
+                    <span>not things.</span>
+                </h1>
+
+                <p class="hero-description">
+                    A visual journey through beautiful places,
+                    peaceful moments and unforgettable adventures.
+                </p>
+
+                <a href="#gallery" class="explore-btn">
+                    Explore Gallery
+                    <span>↓</span>
+                </a>
+
+            </div>
+
+            <div class="hero-decoration">
+                <span>01</span>
+                <div></div>
+                <span>09</span>
+            </div>
+
+        </section>
+
+
+        <!-- ================= GALLERY SECTION ================= -->
+
+        <section class="gallery-section" id="gallery">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">
+                        VISUAL JOURNEY
+                    </p>
+
+                    <h2>
+                        Explore the <em>Gallery</em>
+                    </h2>
+                </div>
+
+                <p class="section-description">
+                    Every photograph tells a story.
+                    Discover places worth remembering.
+                </p>
+
+            </div>
+
+
+            <!-- FILTER BUTTONS -->
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn active"
+                        data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="nature">
+                    Nature
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="travel">
+                    Travel
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="sunset">
+                    Sunset
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="beach">
+                    Beach
+                </button>
+
+            </div>
+
+
+            <!-- IMAGE GRID -->
+
+            <div class="gallery-grid" id="galleryGrid">
+
+
+                <!-- IMAGE 1 -->
+
+                <article class="gallery-item"
+                         data-category="nature">
+
+                    <img src="images/0 (1).png"
+                         alt="Beautiful nature landscape"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>01</span>
+                            <h3>Into the Wild</h3>
+                            <p>Nature</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 2 -->
+
+                <article class="gallery-item"
+                         data-category="travel">
+
+                    <img src="images/0 (2).png"
+                         alt="Beautiful travel destination"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>02</span>
+                            <h3>Wander Often</h3>
+                            <p>Travel</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 3 -->
+
+                <article class="gallery-item"
+                         data-category="sunset">
+
+                    <img src="images/0 (3).png"
+                         alt="Golden sunset landscape"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>03</span>
+                            <h3>Golden Hour</h3>
+                            <p>Sunset</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 4 -->
+
+                <article class="gallery-item"
+                         data-category="travel">
+
+                    <img src="images/0 (4).png"
+                         alt="Travel destination"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>04</span>
+                            <h3>Little Adventures</h3>
+                            <p>Travel</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 5 -->
+
+                <article class="gallery-item"
+                         data-category="travel">
+
+                    <img src="images/0 (5).png"
+                         alt="Beautiful city destination"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>05</span>
+                            <h3>New Horizons</h3>
+                            <p>Travel</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 6 -->
+
+                <article class="gallery-item"
+                         data-category="nature">
+
+                    <img src="images/0 (6).png"
+                         alt="Mountain landscape"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>06</span>
+                            <h3>Into the Mountains</h3>
+                            <p>Nature</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 7 -->
+
+                <article class="gallery-item"
+                         data-category="travel">
+
+                    <img src="images/0 (7).png"
+                         alt="Hot air balloons over a valley"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>07</span>
+                            <h3>Dream Above</h3>
+                            <p>Travel</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 8 -->
+
+                <article class="gallery-item"
+                         data-category="sunset">
+
+                    <img src="images/0 (8).png"
+                         alt="Beautiful sunset by the sea"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>08</span>
+                            <h3>Chasing Sunsets</h3>
+                            <p>Sunset</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 9 -->
+
+                <article class="gallery-item"
+                         data-category="beach">
+
+                    <img src="images/0 (9).png"
+                         alt="Tropical beach sunset"
+                         loading="lazy">
+
+                    <div class="image-overlay">
+
+                        <div>
+                            <span>09</span>
+                            <h3>Ocean Therapy</h3>
+                            <p>Beach</p>
+                        </div>
+
+                        <button class="view-btn"
+                                aria-label="View image">
+                            ↗
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-number">
+                9
+            </div>
+
+            <div class="about-content">
+
+                <p class="eyebrow">
+                    ABOUT SWETHARAMESH
+                </p>
+
+                <h2>
+                    Stories captured<br>
+                    <em>through a lens.</em>
+                </h2>
+
+                <p>
+                    SWETHARAMESH is a modern travel photography gallery
+                    created to celebrate beautiful destinations,
+                    unforgettable sunsets and the little moments
+                    that make every journey special.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= LIGHTBOX ================= -->
+
+    <div class="lightbox" id="lightbox">
+
+        <button class="lightbox-close"
+                id="lightboxClose"
+                aria-label="Close">
+            ×
+        </button>
+
+        <button class="lightbox-prev"
+                id="prevBtn"
+                aria-label="Previous image">
+            ‹
+        </button>
+
+        <div class="lightbox-content">
+
+            <img id="lightboxImage"
+                 src=""
+                 alt="">
+
+            <div class="lightbox-info">
+
+                <span id="lightboxNumber">
+                    01 / 09
+                </span>
+
+                <h3 id="lightboxTitle">
+                    Image Title
+                </h3>
+
+            </div>
+
+        </div>
+
+        <button class="lightbox-next"
+                id="nextBtn"
+                aria-label="Next image">
+            ›
+        </button>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                SWETHARAMESH<span>.</span>
+            </div>
+
+            <p>
+                Capture the moment. Keep the memory.
+            </p>
+
+            <p class="copyright">
+                © 2026 SWETHARAMESH TRAVEL GALLERY.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
